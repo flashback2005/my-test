@@ -14,6 +14,7 @@
 		CCD3C8B82C2192BF00EC9C6B /* TestProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3C8B72C2192BF00EC9C6B /* TestProjectTests.swift */; };
 		CCD3C8C22C2192BF00EC9C6B /* TestProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3C8C12C2192BF00EC9C6B /* TestProjectUITests.swift */; };
 		CCD3C8C42C2192BF00EC9C6B /* TestProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD3C8C32C2192BF00EC9C6B /* TestProjectUITestsLaunchTests.swift */; };
+		CCE54F082C23B958009C7063 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCE54F072C23B958009C7063 /* CountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		CCD3C8BD2C2192BF00EC9C6B /* TestProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCD3C8C12C2192BF00EC9C6B /* TestProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITests.swift; sourceTree = "<group>"; };
 		CCD3C8C32C2192BF00EC9C6B /* TestProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCE54F072C23B958009C7063 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				CCD3C8A62C2192BE00EC9C6B /* TestProjectApp.swift */,
 				CCD3C8A82C2192BE00EC9C6B /* ContentView.swift */,
+				CCE54F072C23B958009C7063 /* CountView.swift */,
 				CCD3C8AA2C2192BF00EC9C6B /* Assets.xcassets */,
 				CCD3C8AC2C2192BF00EC9C6B /* Preview Content */,
 			);
@@ -259,6 +262,7 @@
 			files = (
 				CCD3C8A92C2192BE00EC9C6B /* ContentView.swift in Sources */,
 				CCD3C8A72C2192BE00EC9C6B /* TestProjectApp.swift in Sources */,
+				CCE54F082C23B958009C7063 /* CountView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
