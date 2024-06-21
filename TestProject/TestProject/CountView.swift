@@ -17,11 +17,22 @@ struct CountView: View {
                 Spacer()
                 Text("\(number + numberAdd)")
                 Spacer()
-                Button {
-                    numberAdd += 1
-                } label: {
-                    Text("点击此处数字加1")
+                HStack {
+                    Spacer()
+                    Button {
+                        numberAdd += 1
+                    } label: {
+                        Text("点击此处数字加1")
+                    }
+                    Spacer()
+                    Button {
+                        numberAdd -= 1
+                    } label: {
+                        Text("点击此处数字减1")
+                    }
+                    Spacer()
                 }
+                
                 Spacer()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
